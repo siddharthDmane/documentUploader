@@ -1,0 +1,22 @@
+<div class="homemain" style="position: relative;padding-bottom: 15px;" [class.active]="active">
+    <div class="mainbar">
+        <button (click)="get()" class="ff">View Files</button>
+        <b>{{username}}</b>
+        <input type="text" id="searchDoc" class='ff' placeholder="search">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th class="space ff">Documents{{userid}}</th>
+                <th class="space ff">Urls</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let id of docIds">
+                <th class="ff">{{docNames[id]}}</th>
+                <th><a class="ff" href="{{docUrls[id]}}">view</a></th>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

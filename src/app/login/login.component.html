@@ -1,0 +1,12 @@
+<div class="homemain"  style="background-color:  #04AA6D;">
+    <table class="lg-tbl">
+        <thead>
+            <tr>
+                <th class="ff">LogIn Here</th>
+            </tr>
+        </thead>
+        <tr><th><input #uemail type="email" class='ff' id="uemail" placeholder="your email" (change)="setEmail(uemail)"  required></th></tr>
+        <tr><th><input #upass type="password" class='ff' id="upass" placeholder="your password"  (change)="setPass(upass)" required></th></tr>
+        <tr><th><input type="button" class='ff' id="login" value="LogIn" (click)="authenticate()"></th></tr>
+    </table>
+</div>

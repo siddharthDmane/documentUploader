@@ -1,11 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
 .homemain{
     padding:5px 5px 5px 5px;
     font-family: 'cambria';
     background-color:#e4d00a; 
     border-bottom: 5px solid black;
-}
-.ff{
-    font-family: 'cambria';
-    font-size:17px;
 }

@@ -1,0 +1,63 @@
+.mainbar{
+    position: absolute;
+    top:0px;
+    left:0px;
+    padding-top:5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width:98%;
+    background-color: #f5f5dc;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px black;
+}
+.active{
+    display:none;
+}
+button{
+    float: left;
+    margin-left: 1.5%;
+    background-color:  #E3735E ;
+    border:1px solid #E3735E ;
+    box-shadow: 1px 1px #f5f5dc;
+}
+input{
+    float: left;
+    margin-left: 0.5%;
+}
+b{
+    float:right;
+    margin-right: 1.5%;
+}
+table{
+    margin-top: 50px;
+    margin-left: 35%;
+    width:30%;
+    border:1px solid black;
+}
+tr:nth-child(even){
+    background-color: #eedc82;
+}
+tr:nth-child(odd){
+    background-color: #fff0f5;
+}
+th{
+    padding:10px;
+}
+.space{
+    padding:'5px';
+    background-color: #04AA6D;
+    color: white;
+}
+a:active{
+    color:yellow;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color:blue;
+}
+a:link{
+    color:yellow;
+}

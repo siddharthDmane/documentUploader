@@ -1,0 +1,25 @@
+.ff{
+    font-family: 'cambria';
+    font-size:20px;
+}
+.lg-tbl{   
+    position:relative;
+    margin:50px 25% 35px 25%;
+    padding: 15px;
+    width:50%;
+    background-color:#90EE90;
+    border-radius:5px;
+    border-right: solid 3px white;
+    border-bottom: solid 3px white;
+    padding:15px;
+    transition: all .2s ease-in-out;
+}
+
+.lg-tbl:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width:480px){
+    .lg-tbl{
+        margin-left:10%;
+    }
+}

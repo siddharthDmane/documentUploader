@@ -1,0 +1,48 @@
+div{
+    background-color:  #04AA6D;
+    display: flex;
+    height: 60px;
+}
+h1{
+  text-align: center;
+  color: white;
+  width: 30%;
+  margin-top:1px;
+  margin-left: 35%;
+}
+#user{
+  margin-top:25px;
+  height:30px;
+  width:23%;
+  margin-left:7.5%;
+  text-align: center;
+  background-color: l#333;
+  border:1px solid green;
+  border-radius: 5px;
+}
+ul {
+    position: sticky;
+    list-style-type: none;
+    top: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-top: 1px solid white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-family: 'cambria';
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .active{
+    background-color:#e4d00a;   
+  }

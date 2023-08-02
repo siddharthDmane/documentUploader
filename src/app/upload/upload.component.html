@@ -1,0 +1,23 @@
+<div class="homemain" style="position: relative;padding-bottom: 15px;" [class.active]="active">
+    <div class="mainbar">
+        <b>{{username}}</b>
+    </div>
+    <table class="lg-tbl">
+        <thead>
+            <tr><th class="ff">
+                Upload Your Files Here
+            </th></tr>
+        </thead>
+        <tbody>
+            <tr><td>
+                <input type="file" name="Uploadedfile" id="Uploadedfile" class="ff" (change)="getDetails($event)">
+            </td></tr>
+            <tr><td align="center">
+                <input type="button" id="upload" class="ff" value="Upload" (click)="uploadFile()">
+            </td></tr>
+            <tr><td>
+                <div id="progressbar" [style.width]="progress"></div>
+            </td></tr>
+        </tbody>
+    </table>
+</div>
